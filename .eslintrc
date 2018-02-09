@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "browser": true,
+    "node": false
+  },
+  "globals": {
+    "module": true,
+    "environment": true
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": {
+          "resolve": {
+            "extensions": [".js"],
+            "modules": [
+              "node_modules",
+              "./"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

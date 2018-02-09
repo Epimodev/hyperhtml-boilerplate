@@ -1,0 +1,15 @@
+@import "fonts";
+@import "colors";
+
+body {
+  font-family: 'open-sans';
+}
+
+.container {
+  color: $green;
+}
+
+.icon {
+  width: 20px;
+  height: 15px;
+}

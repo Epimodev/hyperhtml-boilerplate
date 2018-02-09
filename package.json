@@ -1,0 +1,48 @@
+{
+  "name": "hyper-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to create webapp with HyperHTML",
+  "main": "index.html",
+  "author": "Frédéric Godin <godin.fred8@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node webpack/development.js",
+    "build": "yarn flow && node webpack/build.js",
+    "flow": "flow",
+    "lint": "eslint --ext .js ./src"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "css-loader": "^0.28.9",
+    "css-modules-flow-types-loader": "^1.1.0",
+    "dotenv": "^5.0.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "flow-bin": "^0.64.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.6",
+    "shelljs": "^0.8.1",
+    "style-loader": "^0.20.1",
+    "svg-sprite-html-webpack": "^1.0.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "hyperhtml": "^2.5.9"
+  }
+}
